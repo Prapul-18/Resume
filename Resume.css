@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url('greting.jpg');
+    background-size: cover;
+
+}
+.dark-mode{
+    background-color: #333;
+    color:#fff
+}
+
+header {
+    background-color: #edefe6; 
+    color:#3498db ; 
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: rgb(92, 8, 194); 
+    color: rgb(192, 22, 22); 
+    text-align: left;
+    padding: 0.5em 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+a:hover {
+    background-color: rgba(28, 213, 74, 0.724);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(11, 12, 15, 0.991); 
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+
+nav a {
+    color:white;
+}
+
+section {
+    padding: 20px;
+}
+
+.circular-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    object-fit: cover;
+    
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #110f0f; 
+    padding: 10px;
+    text-align: left;
+}
+
+.table1 {
+    color: #3498db;
+    text-align: center;
+    background-color: #2c3e50; 
+}
+h1 {
+    color:#181919; 
+    text-align: left;
+}
+h2, h3{
+    color:#131414; 
+    text-align: left;
+}
+
+hr {
+    border: 1px solid #0b0c0b; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:rgb(9, 9, 9);
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+footer {
+            clear: both;
+            text-align: center;
+            background-color: #333;
+            color: rgb(11, 11, 11);
+            padding: 0px;
+            bottom: 0;
+            width: 100%;
+        }
